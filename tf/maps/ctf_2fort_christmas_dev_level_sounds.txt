@@ -1,0 +1,192 @@
+// Blank out the announcer countdown like stock map
+"Announcer.RoundBegins1Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"        "SNDLVL_NONE"
+
+    "wave"            "2fort_christmas/vo/mission_1.mp3"
+}
+"Announcer.RoundBegins2Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"        "SNDLVL_NONE"
+
+    "wave"            "2fort_christmas/vo/mission_2.mp3"
+}
+"Announcer.RoundBegins3Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"        "SNDLVL_NONE"
+
+    "wave"            "2fort_christmas/vo/mission_3.mp3"
+}
+"Announcer.RoundBegins4Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"        "SNDLVL_NONE"
+
+    "wave"            "2fort_christmas/vo/mission_4.mp3"
+}
+"Announcer.RoundBegins5Seconds"
+{
+    "channel"        "CHAN_VOICE2"
+    "volume"        "VOL_NORM"
+    "pitch"            "PITCH_NORM"
+
+    "soundlevel"        "SNDLVL_NONE"
+
+    "wave"            "2fort_christmas/vo/mission_5.mp3"
+}
+
+"MatchMaking.RoundStartCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".4"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"2fort_christmas/music/tele_christmas.wav"
+}
+
+"Announcer.RoundBegins10Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/mission_10.mp3"
+}
+
+"Announcer.RoundBegins60Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/mission_60.mp3"
+}
+
+"Announcer.RoundBegins30Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/mission_30.mp3"
+}
+
+"Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"2fort_christmas/music/ctf_2fort_event_win_christmas.mp3"	[$WIN32]
+	"wave"		"2fort_christmas/music/ctf_2fort_event_win_christmas.wav"	[$X360]
+}
+
+"CaptureFlag.EnemyCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/enemy_capture_presents.mp3"
+}
+
+"CaptureFlag.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/enemy_drop_presents.mp3"
+}
+
+"CaptureFlag.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/presents_base_enemy.mp3"
+}
+
+"CaptureFlag.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/enemy_taken_presents.mp3"
+}
+
+"CaptureFlag.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/capture_enemy_presents.mp3"
+}
+
+"CaptureFlag.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/we_drop_presents.mp3"
+}
+
+"CaptureFlag.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/presents_base_our.mp3"
+}
+
+"CaptureFlag.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"2fort_christmas/vo/taken_enemy_presents.mp3"
+}

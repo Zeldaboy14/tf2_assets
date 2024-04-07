@@ -1,0 +1,5 @@
+particles_manifest
+{
+	file    "!particles/snowville_particles.pcf"
+	file	"!particles/coalpit_fx.pcf"
+}
